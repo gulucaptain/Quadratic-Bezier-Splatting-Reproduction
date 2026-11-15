@@ -1,0 +1,24 @@
+Third-party attribution and scope of license
+
+This is an independent implementation. It is not affiliated with or endorsed
+by the authors of arXiv:2611.10713. The MIT license applies to original code
+and documentation in this repository, not to the paper or third-party assets.
+
+Reference paper:
+Jinfan Liu, Xuhan Zhan, Mengqin Zhao, Guangyi Deng, Wuze Zhang, Bingbing Ni.
+Quadratic Bezier Splatting with Structural Initialization for Efficient
+Painting Rendering. https://arxiv.org/abs/2611.10713
+The paper's full text is not distributed here.
+
+Evaluation inputs:
+The input manifest points to the Im2Oil project and its contributors:
+https://github.com/TZYSJTU/Im2Oil
+The upstream project declares CC0-1.0. Original image rights, where applicable,
+remain with their respective owners. The repository does not distribute raw
+input datasets. Evaluation figures include reduced source-image comparisons
+and generated reconstructions for research reporting; these assets are not
+relicensed as original MIT software.
+
+Flickr2K and DIV2K are not distributed. Their original source/usage terms apply.
+PyTorch, torchvision, timm, NumPy, SciPy, Pillow, matplotlib, scikit-image,
+pytest, and Ruff are separately distributed dependencies under their own licenses.

@@ -1,0 +1,1 @@
+{"torch": "2.15.0", "mps": true, "image_max_abs_error": 8.046627044677734e-07, "gradient_max_abs_error": 1.2367963790893555e-06}

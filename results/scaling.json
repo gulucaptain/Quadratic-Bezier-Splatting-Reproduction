@@ -1,0 +1,94 @@
+[
+  {
+    "size": 128,
+    "strokes": 128,
+    "recompute": true,
+    "samples": [
+      {
+        "forward_s": 0.7774760419270024,
+        "backward_s": 0.10786212503444403,
+        "driver_allocated_gib": 0.055389404296875
+      },
+      {
+        "forward_s": 0.029537041089497507,
+        "backward_s": 0.04032354103401303,
+        "driver_allocated_gib": 0.055389404296875
+      },
+      {
+        "forward_s": 0.03256083303131163,
+        "backward_s": 0.03948670800309628,
+        "driver_allocated_gib": 0.0553741455078125
+      }
+    ],
+    "mean_step_seconds": 0.07095406157895923
+  },
+  {
+    "size": 256,
+    "strokes": 250,
+    "recompute": true,
+    "samples": [
+      {
+        "forward_s": 0.26623133302200586,
+        "backward_s": 0.26379812497179955,
+        "driver_allocated_gib": 0.0631866455078125
+      },
+      {
+        "forward_s": 0.11698829103261232,
+        "backward_s": 0.14391900005284697,
+        "driver_allocated_gib": 0.0631866455078125
+      },
+      {
+        "forward_s": 0.11917620804160833,
+        "backward_s": 0.14985183300450444,
+        "driver_allocated_gib": 0.0631866455078125
+      }
+    ],
+    "mean_step_seconds": 0.26496766606578603
+  },
+  {
+    "size": 600,
+    "strokes": 2000,
+    "recompute": true,
+    "samples": [
+      {
+        "forward_s": 1.0559955420903862,
+        "backward_s": 1.773455207934603,
+        "driver_allocated_gib": 0.1334991455078125
+      },
+      {
+        "forward_s": 0.8058847920037806,
+        "backward_s": 1.0274292500689626,
+        "driver_allocated_gib": 0.1334991455078125
+      },
+      {
+        "forward_s": 0.7936531250597909,
+        "backward_s": 1.0150759581010789,
+        "driver_allocated_gib": 0.1334991455078125
+      }
+    ],
+    "mean_step_seconds": 1.8210215626168065
+  },
+  {
+    "size": 600,
+    "strokes": 5000,
+    "recompute": true,
+    "samples": [
+      {
+        "forward_s": 2.3844716669991612,
+        "backward_s": 2.3892061250517145,
+        "driver_allocated_gib": 0.1881866455078125
+      },
+      {
+        "forward_s": 1.3156572500010952,
+        "backward_s": 1.6861267910571769,
+        "driver_allocated_gib": 0.2506866455078125
+      },
+      {
+        "forward_s": 1.2676136660156772,
+        "backward_s": 1.7223507500020787,
+        "driver_allocated_gib": 0.2663116455078125
+      }
+    ],
+    "mean_step_seconds": 2.995874228538014
+  }
+]

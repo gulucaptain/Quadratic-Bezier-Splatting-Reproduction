@@ -1,0 +1,72 @@
+{
+  "initial_psnr": 15.446369632902785,
+  "best_psnr": 26.242066489376164,
+  "best_step": 500,
+  "final_psnr": 26.242066489376164,
+  "ssim": 0.8418480753898621,
+  "seconds": 22.263123624958098,
+  "final_strokes": 128,
+  "best_strokes": 128,
+  "audit_mean": {
+    "area": 125.1578140258789,
+    "good": 54.157779693603516,
+    "bad": 0.23869062960147858,
+    "purity": 0.9798473119735718,
+    "benefit": 0.5313911437988281,
+    "residual": 0.11309230327606201
+  },
+  "events": [
+    {
+      "step": 100,
+      "pruned": 12,
+      "split": 6,
+      "spawned": 6,
+      "split_proposals": 6
+    },
+    {
+      "step": 150,
+      "pruned": 4,
+      "split": 2,
+      "spawned": 2,
+      "split_proposals": 2
+    },
+    {
+      "step": 200,
+      "pruned": 9,
+      "split": 4,
+      "spawned": 5,
+      "split_proposals": 4
+    },
+    {
+      "step": 250,
+      "pruned": 2,
+      "split": 1,
+      "spawned": 1,
+      "split_proposals": 1
+    },
+    {
+      "step": 300,
+      "pruned": 4,
+      "split": 2,
+      "spawned": 2,
+      "split_proposals": 2
+    },
+    {
+      "step": 350,
+      "pruned": 5,
+      "split": 2,
+      "spawned": 3,
+      "split_proposals": 2
+    },
+    {
+      "step": 400,
+      "pruned": 1,
+      "split": 0,
+      "spawned": 1,
+      "split_proposals": 0
+    }
+  ],
+  "lpips": null,
+  "comparison_to_paper": "not comparable: local pilot resolution, templates, dataset subset",
+  "event_telemetry_correction": "split now counts executed operations, split_proposals preserves original count. Fixed 128-stroke full-audit runs: executed=pruned-spawned. Image metrics unchanged; raw stdout retained."
+}

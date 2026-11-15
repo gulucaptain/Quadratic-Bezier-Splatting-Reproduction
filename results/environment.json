@@ -1,0 +1,10 @@
+{
+  "chip": "Apple M4 Pro",
+  "memory_bytes": 51539607552,
+  "gpu_cores": 16,
+  "os": "macOS 15.7.1",
+  "python": "3.12.13",
+  "torch": "2.15.0",
+  "device": "MPS, verified in unrestricted local process",
+  "lockfile": "requirements-lock.txt"
+}

@@ -1,0 +1,29 @@
+# Environments and generated package files
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.cache/
+*.egg-info/
+build/
+dist/
+.DS_Store
+.env
+.env.*
+# New experiments, datasets and checkpoints
+runs/
+data/gallery/
+data/flickr2k/
+data/div2k/
+*.pt
+# Source paper and uncurated local experiments
+paper/paper.html
+paper/paper.txt
+results/exploratory*/
+results/exploratory*
+results/benchmark_mps/
+results/*_print.txt
+results/REPORT.md
+REPRODUCTION.md
+# Input copies are regenerated from the verified manifest
+results/**/target.png

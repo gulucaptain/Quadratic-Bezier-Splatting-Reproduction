@@ -1,0 +1,11 @@
+{
+  "images": ["data/gallery/A0.jpg", "data/gallery/L0.jpg", "data/gallery/P0.jpg"],
+  "seeds": [0, 1, 2],
+  "audit_modes": ["none", "full"],
+  "fit_options": {
+    "width": 128, "height": 128, "strokes": 128, "steps": 500,
+    "lr": 0.02, "tile": 32, "log_every": 50, "init": "random",
+    "audit_tail": 100, "direction_weight": 0.04, "primitive": "quadratic",
+    "purity_min": 0.5, "lambda_bad": 1.0, "threads": 4, "recompute": false
+  }
+}

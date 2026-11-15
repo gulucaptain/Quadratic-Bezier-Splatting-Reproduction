@@ -1,0 +1,21 @@
+{
+  "initial_psnr": 12.257707474594916,
+  "best_psnr": 24.982072644765463,
+  "best_step": 500,
+  "final_psnr": 24.982072644765463,
+  "ssim": 0.8149154782295227,
+  "seconds": 21.62261900003068,
+  "final_strokes": 128,
+  "best_strokes": 128,
+  "audit_mean": {
+    "area": 126.19764709472656,
+    "good": 128.9064178466797,
+    "bad": 0.4366459548473358,
+    "purity": 0.9406155943870544,
+    "benefit": 0.795224666595459,
+    "residual": 0.12225666642189026
+  },
+  "events": [],
+  "lpips": null,
+  "comparison_to_paper": "not comparable: local pilot resolution, templates, dataset subset"
+}

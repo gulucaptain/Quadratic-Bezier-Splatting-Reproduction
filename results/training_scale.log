@@ -1,0 +1,6 @@
+{"data": null, "out": "results/training_scale", "device": "mps", "epochs": 200, "batch_size": 1, "microbatch": 1, "strokes": 250, "render_size": 256, "max_steps": 5, "smoke": true, "pretrained": false, "seed": 0, "resume": null, "parameter_count": 29176459, "source_files": [], "training_policy": "one random 256px crop per sampled image; cycling shuffled epochs", "tau": 1.0, "status": "synthetic diagnostic"}
+{"step": 1, "loss": 0.09446932375431061, "elapsed": 1.9079434999730438, "backbone_grad": 0.00013592271716333926}
+{"step": 2, "loss": 0.11621591448783875, "elapsed": 3.131370124989189, "backbone_grad": 0.00043321814155206084}
+{"step": 3, "loss": 0.1097622811794281, "elapsed": 3.6200506249442697, "backbone_grad": 0.0007848749519325793}
+{"step": 4, "loss": 0.1026931181550026, "elapsed": 4.086726291920058, "backbone_grad": 0.0012089151423424482}
+{"step": 5, "loss": 0.10518592596054077, "elapsed": 4.633602416957729, "backbone_grad": 0.0012836841633543372}

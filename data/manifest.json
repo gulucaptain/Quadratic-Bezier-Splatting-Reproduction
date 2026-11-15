@@ -1,0 +1,20 @@
+[
+  {
+    "file": "data/gallery/A0.jpg",
+    "url": "https://raw.githubusercontent.com/TZYSJTU/Im2Oil/e833238e018c4189ca629f2cfc1103a12f653cd8/input/A0.jpg",
+    "sha256": "08f7b4e89dbb78555475caa1d0354eba825676c3f82d8ce5c24b4192c1c52a10",
+    "dataset": "Im2Oil public input folder; exact paper Gallery subset not disclosed"
+  },
+  {
+    "file": "data/gallery/L0.jpg",
+    "url": "https://raw.githubusercontent.com/TZYSJTU/Im2Oil/e833238e018c4189ca629f2cfc1103a12f653cd8/input/L0.jpg",
+    "sha256": "69b75ce2af0805a889858a7e02f686d3e6cf68539bed0ed5c3f59664e17a0b9a",
+    "dataset": "Im2Oil public input folder; exact paper Gallery subset not disclosed"
+  },
+  {
+    "file": "data/gallery/P0.jpg",
+    "url": "https://raw.githubusercontent.com/TZYSJTU/Im2Oil/e833238e018c4189ca629f2cfc1103a12f653cd8/input/P0.jpg",
+    "sha256": "76041a95c6c3498f8ef8abae9e105b94881335866c5a8595ee6b08f5da22575a",
+    "dataset": "Im2Oil public input folder; exact paper Gallery subset not disclosed"
+  }
+]

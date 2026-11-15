@@ -1,0 +1,20 @@
+{
+  "data": null,
+  "out": "results/training_scale",
+  "device": "mps",
+  "epochs": 200,
+  "batch_size": 1,
+  "microbatch": 1,
+  "strokes": 250,
+  "render_size": 256,
+  "max_steps": 5,
+  "smoke": true,
+  "pretrained": false,
+  "seed": 0,
+  "resume": null,
+  "parameter_count": 29176459,
+  "source_files": [],
+  "training_policy": "one random 256px crop per sampled image; cycling shuffled epochs",
+  "tau": 1.0,
+  "status": "synthetic diagnostic"
+}

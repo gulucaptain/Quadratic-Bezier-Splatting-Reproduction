@@ -1,0 +1,234 @@
+RUN results/pilot/A0_s0_none
+{"step": 0, "mse": 0.02975529246032238, "psnr": 15.264357767626555, "strokes": 128, "elapsed": 0.027826875098980963}
+{"step": 50, "mse": 0.0050520459190011024, "psnr": 22.965327107140617, "strokes": 128, "elapsed": 2.575473500066437}
+{"step": 100, "mse": 0.004416496958583593, "psnr": 23.549220643034516, "strokes": 128, "elapsed": 4.7080433330265805}
+{"step": 150, "mse": 0.003655719803646207, "psnr": 24.37027098603858, "strokes": 128, "elapsed": 6.82282787503209}
+{"step": 200, "mse": 0.003421613946557045, "psnr": 24.65768992555892, "strokes": 128, "elapsed": 8.958960124989972}
+{"step": 250, "mse": 0.0030951937660574913, "psnr": 25.093121579862036, "strokes": 128, "elapsed": 11.134214000077918}
+{"step": 300, "mse": 0.0030046242754906416, "psnr": 25.22209828247972, "strokes": 128, "elapsed": 13.362055958015844}
+{"step": 350, "mse": 0.002820835681632161, "psnr": 25.496222114833724, "strokes": 128, "elapsed": 15.614004875067621}
+{"step": 400, "mse": 0.0027877751272171736, "psnr": 25.547422610429894, "strokes": 128, "elapsed": 17.804917750065215}
+{"step": 450, "mse": 0.002777157351374626, "psnr": 25.563995127964727, "strokes": 128, "elapsed": 20.017053166986443}
+{"step": 500, "mse": 0.002775532193481922, "psnr": 25.56653730908065, "strokes": 128, "elapsed": 22.13508850010112}
+{"initial_psnr": 15.264357767626555, "best_psnr": 25.56653730908065, "best_step": 500, "final_psnr": 25.56653730908065, "ssim": 0.8351406455039978, "seconds": 22.23575229209382, "final_strokes": 128, "best_strokes": 128, "audit_mean": {"area": 126.79275512695312, "good": 54.07978439331055, "bad": 0.31422722339630127, "purity": 0.9312342405319214, "benefit": 0.3893803656101227, "residual": 0.10746023058891296}, "events": [], "lpips": null, "comparison_to_paper": "not comparable: local pilot resolution, templates, dataset subset"}
+RUN results/pilot/A0_s0_full
+{"step": 0, "mse": 0.02975529246032238, "psnr": 15.264357767626555, "strokes": 128, "elapsed": 0.02999566704966128}
+{"step": 50, "mse": 0.0050520459190011024, "psnr": 22.965327107140617, "strokes": 128, "elapsed": 2.1824565830174834}
+{"step": 100, "mse": 0.00460024643689394, "psnr": 23.372189023800765, "strokes": 128, "elapsed": 4.401499875006266}
+{"step": 150, "mse": 0.0036158468574285507, "psnr": 24.417899715545666, "strokes": 128, "elapsed": 6.62276533304248}
+{"step": 200, "mse": 0.004036224912852049, "psnr": 23.94024641322885, "strokes": 128, "elapsed": 8.851627833093517}
+{"step": 250, "mse": 0.0032340073958039284, "psnr": 24.902589912468216, "strokes": 128, "elapsed": 11.09274745802395}
+{"step": 300, "mse": 0.0030332105234265327, "psnr": 25.180974459407352, "strokes": 128, "elapsed": 13.436704667052254}
+{"step": 350, "mse": 0.0028196629136800766, "psnr": 25.498028078079265, "strokes": 128, "elapsed": 15.622878875001334}
+{"step": 400, "mse": 0.0028201669920235872, "psnr": 25.49725174812862, "strokes": 128, "elapsed": 17.885040167020634}
+{"step": 450, "mse": 0.0026975066866725683, "psnr": 25.69037470099584, "strokes": 128, "elapsed": 19.94629304204136}
+{"step": 500, "mse": 0.0026916873175650835, "psnr": 25.699753917523765, "strokes": 128, "elapsed": 22.22785545804072}
+{"initial_psnr": 15.264357767626555, "best_psnr": 25.699753917523765, "best_step": 500, "final_psnr": 25.699753917523765, "ssim": 0.8375948071479797, "seconds": 22.32477829209529, "final_strokes": 128, "best_strokes": 128, "audit_mean": {"area": 125.28387451171875, "good": 54.078731536865234, "bad": 0.2809782028198242, "purity": 0.9706762433052063, "benefit": 0.4788108468055725, "residual": 0.11541562527418137}, "events": [{"step": 100, "pruned": 6, "split": 3, "spawned": 3}, {"step": 150, "pruned": 3, "split": 1, "spawned": 2}, {"step": 200, "pruned": 2, "split": 1, "spawned": 1}, {"step": 250, "pruned": 5, "split": 2, "spawned": 3}, {"step": 300, "pruned": 4, "split": 2, "spawned": 2}, {"step": 350, "pruned": 1, "split": 0, "spawned": 1}, {"step": 400, "pruned": 1, "split": 0, "spawned": 1}], "lpips": null, "comparison_to_paper": "not comparable: local pilot resolution, templates, dataset subset"}
+RUN results/pilot/A0_s1_none
+{"step": 0, "mse": 0.028534024953842163, "psnr": 15.446369632902785, "strokes": 128, "elapsed": 0.028172957943752408}
+{"step": 50, "mse": 0.004298623185604811, "psnr": 23.666706231744506, "strokes": 128, "elapsed": 2.1076545000541955}
+{"step": 100, "mse": 0.0040133241564035416, "psnr": 23.96495760861277, "strokes": 128, "elapsed": 4.236379957990721}
+{"step": 150, "mse": 0.0034860316663980484, "psnr": 24.576686721659364, "strokes": 128, "elapsed": 6.373515916988254}
+{"step": 200, "mse": 0.0033123136963695288, "psnr": 24.798685395952322, "strokes": 128, "elapsed": 8.391998499981128}
+{"step": 250, "mse": 0.0031587935518473387, "psnr": 25.004787571981595, "strokes": 128, "elapsed": 10.479926291969605}
+{"step": 300, "mse": 0.0028935938607901335, "psnr": 25.38562425668816, "strokes": 128, "elapsed": 12.663735167006962}
+{"step": 350, "mse": 0.0027926478069275618, "psnr": 25.539838316289142, "strokes": 128, "elapsed": 14.829598666983657}
+{"step": 400, "mse": 0.00273164757527411, "psnr": 25.6357533207199, "strokes": 128, "elapsed": 16.96029679197818}
+{"step": 450, "mse": 0.0027137494180351496, "psnr": 25.66430256672171, "strokes": 128, "elapsed": 19.18853499996476}
+{"step": 500, "mse": 0.0027116702403873205, "psnr": 25.667631250880373, "strokes": 128, "elapsed": 21.37735695799347}
+{"initial_psnr": 15.446369632902785, "best_psnr": 25.667631250880373, "best_step": 500, "final_psnr": 25.667631250880373, "ssim": 0.8318764567375183, "seconds": 21.47097337502055, "final_strokes": 128, "best_strokes": 128, "audit_mean": {"area": 127.29324340820312, "good": 54.0670166015625, "bad": 0.2769363522529602, "purity": 0.9132608771324158, "benefit": 0.415412962436676, "residual": 0.11377300322055817}, "events": [], "lpips": null, "comparison_to_paper": "not comparable: local pilot resolution, templates, dataset subset"}
+RUN results/pilot/A0_s1_full
+{"step": 0, "mse": 0.028534024953842163, "psnr": 15.446369632902785, "strokes": 128, "elapsed": 0.02867812500335276}
+{"step": 50, "mse": 0.004298623185604811, "psnr": 23.666706231744506, "strokes": 128, "elapsed": 2.1778746669879183}
+{"step": 100, "mse": 0.004321789834648371, "psnr": 23.64336356349526, "strokes": 128, "elapsed": 4.446713167009875}
+{"step": 150, "mse": 0.004364307504147291, "psnr": 23.60084657109951, "strokes": 128, "elapsed": 6.663424583966844}
+{"step": 200, "mse": 0.0034504830837249756, "psnr": 24.621200974169177, "strokes": 128, "elapsed": 8.877714499947615}
+{"step": 250, "mse": 0.0032611796632409096, "psnr": 24.866252746056396, "strokes": 128, "elapsed": 11.133422667044215}
+{"step": 300, "mse": 0.002946491353213787, "psnr": 25.306948290494184, "strokes": 128, "elapsed": 13.378460541949607}
+{"step": 350, "mse": 0.0028034308925271034, "psnr": 25.52310145241984, "strokes": 128, "elapsed": 15.56229833397083}
+{"step": 400, "mse": 0.0025586436968296766, "psnr": 25.919901874517855, "strokes": 128, "elapsed": 17.792082416941412}
+{"step": 450, "mse": 0.0023830330464988947, "psnr": 26.22869935071671, "strokes": 128, "elapsed": 19.924051249981858}
+{"step": 500, "mse": 0.002375709591433406, "psnr": 26.242066489376164, "strokes": 128, "elapsed": 22.168797541991808}
+{"initial_psnr": 15.446369632902785, "best_psnr": 26.242066489376164, "best_step": 500, "final_psnr": 26.242066489376164, "ssim": 0.8418480753898621, "seconds": 22.263123624958098, "final_strokes": 128, "best_strokes": 128, "audit_mean": {"area": 125.1578140258789, "good": 54.157779693603516, "bad": 0.23869062960147858, "purity": 0.9798473119735718, "benefit": 0.5313911437988281, "residual": 0.11309230327606201}, "events": [{"step": 100, "pruned": 12, "split": 6, "spawned": 6}, {"step": 150, "pruned": 4, "split": 2, "spawned": 2}, {"step": 200, "pruned": 9, "split": 4, "spawned": 5}, {"step": 250, "pruned": 2, "split": 1, "spawned": 1}, {"step": 300, "pruned": 4, "split": 2, "spawned": 2}, {"step": 350, "pruned": 5, "split": 2, "spawned": 3}, {"step": 400, "pruned": 1, "split": 0, "spawned": 1}], "lpips": null, "comparison_to_paper": "not comparable: local pilot resolution, templates, dataset subset"}
+RUN results/pilot/A0_s2_none
+{"step": 0, "mse": 0.02159404754638672, "psnr": 16.656659467204772, "strokes": 128, "elapsed": 0.03146374993957579}
+{"step": 50, "mse": 0.004300284665077925, "psnr": 23.665027945644745, "strokes": 128, "elapsed": 2.2282234999584034}
+{"step": 100, "mse": 0.0036104125902056694, "psnr": 24.424431650165737, "strokes": 128, "elapsed": 4.422087165992707}
+{"step": 150, "mse": 0.0031530912965536118, "psnr": 25.01263454239274, "strokes": 128, "elapsed": 6.506950040929951}
+{"step": 200, "mse": 0.0029386861715465784, "psnr": 25.31846790668757, "strokes": 128, "elapsed": 8.647697957931086}
+{"step": 250, "mse": 0.0027384618297219276, "psnr": 25.624933081427805, "strokes": 128, "elapsed": 10.79357587499544}
+{"step": 300, "mse": 0.0025375373661518097, "psnr": 25.955875538889536, "strokes": 128, "elapsed": 13.012684790999629}
+{"step": 350, "mse": 0.0024612308479845524, "psnr": 26.08847650293942, "strokes": 128, "elapsed": 15.139119374915026}
+{"step": 400, "mse": 0.0024299302604049444, "psnr": 26.144061905810823, "strokes": 128, "elapsed": 17.331526416004635}
+{"step": 450, "mse": 0.002418075455352664, "psnr": 26.165301512287623, "strokes": 128, "elapsed": 19.58332866593264}
+{"step": 500, "mse": 0.0024169099051505327, "psnr": 26.1673953843192, "strokes": 128, "elapsed": 21.76664616598282}
+{"initial_psnr": 16.656659467204772, "best_psnr": 26.1673953843192, "best_step": 500, "final_psnr": 26.1673953843192, "ssim": 0.8445836901664734, "seconds": 21.854924040962942, "final_strokes": 128, "best_strokes": 128, "audit_mean": {"area": 124.582763671875, "good": 54.13705062866211, "bad": 0.23378175497055054, "purity": 0.9354097843170166, "benefit": 0.44508975744247437, "residual": 0.10139821469783783}, "events": [], "lpips": null, "comparison_to_paper": "not comparable: local pilot resolution, templates, dataset subset"}
+RUN results/pilot/A0_s2_full
+{"step": 0, "mse": 0.02159404754638672, "psnr": 16.656659467204772, "strokes": 128, "elapsed": 0.02831216691993177}
+{"step": 50, "mse": 0.004300284665077925, "psnr": 23.665027945644745, "strokes": 128, "elapsed": 2.17636466701515}
+{"step": 100, "mse": 0.0036042083520442247, "psnr": 24.43190111275761, "strokes": 128, "elapsed": 4.549434999935329}
+{"step": 150, "mse": 0.0032057196367532015, "psnr": 24.940744624981754, "strokes": 128, "elapsed": 6.83576537494082}
+{"step": 200, "mse": 0.0030013269279152155, "psnr": 25.226866952594754, "strokes": 128, "elapsed": 9.085097332950681}
+{"step": 250, "mse": 0.0027965588960796595, "psnr": 25.533760299123255, "strokes": 128, "elapsed": 11.48419487499632}
+{"step": 300, "mse": 0.002905822591856122, "psnr": 25.36730904053777, "strokes": 128, "elapsed": 13.75646758300718}
+{"step": 350, "mse": 0.0024207066744565964, "psnr": 26.16057832360298, "strokes": 128, "elapsed": 16.15438279195223}
+{"step": 400, "mse": 0.0024109233636409044, "psnr": 26.178165943827473, "strokes": 128, "elapsed": 18.318454082938842}
+{"step": 450, "mse": 0.0024011621717363596, "psnr": 26.195785072017074, "strokes": 128, "elapsed": 20.49375170795247}
+{"step": 500, "mse": 0.00240050139836967, "psnr": 26.19698036704166, "strokes": 128, "elapsed": 22.56351945793722}
+{"initial_psnr": 16.656659467204772, "best_psnr": 26.19698036704166, "best_step": 500, "final_psnr": 26.19698036704166, "ssim": 0.8465507626533508, "seconds": 22.65233679197263, "final_strokes": 128, "best_strokes": 128, "audit_mean": {"area": 123.98501586914062, "good": 54.13618469238281, "bad": 0.22661636769771576, "purity": 0.9750699996948242, "benefit": 0.49508145451545715, "residual": 0.10916009545326233}, "events": [{"step": 100, "pruned": 1, "split": 0, "spawned": 1}, {"step": 150, "pruned": 1, "split": 0, "spawned": 1}, {"step": 200, "pruned": 1, "split": 0, "spawned": 1}, {"step": 250, "pruned": 2, "split": 1, "spawned": 1}, {"step": 300, "pruned": 3, "split": 1, "spawned": 2}, {"step": 350, "pruned": 1, "split": 0, "spawned": 1}, {"step": 400, "pruned": 0, "split": 0, "spawned": 0}], "lpips": null, "comparison_to_paper": "not comparable: local pilot resolution, templates, dataset subset"}
+RUN results/pilot/L0_s0_none
+{"step": 0, "mse": 0.029839055612683296, "psnr": 15.252149261286828, "strokes": 128, "elapsed": 0.028689458034932613}
+{"step": 50, "mse": 0.007929191924631596, "psnr": 21.007710700033787, "strokes": 128, "elapsed": 2.1466467910213396}
+{"step": 100, "mse": 0.006990849506109953, "psnr": 21.554700469440146, "strokes": 128, "elapsed": 4.206911750021391}
+{"step": 150, "mse": 0.006066279020160437, "psnr": 22.170776180726364, "strokes": 128, "elapsed": 6.398563332972117}
+{"step": 200, "mse": 0.005979567300528288, "psnr": 22.233302417293007, "strokes": 128, "elapsed": 8.605897582951002}
+{"step": 250, "mse": 0.006506033707410097, "psnr": 21.866836909920252, "strokes": 128, "elapsed": 10.870961582986638}
+{"step": 300, "mse": 0.006141407415270805, "psnr": 22.117320909690996, "strokes": 128, "elapsed": 13.077933082939126}
+{"step": 350, "mse": 0.00572742335498333, "psnr": 22.420407138767622, "strokes": 128, "elapsed": 15.294117916026153}
+{"step": 400, "mse": 0.005616715177893639, "psnr": 22.505175985211118, "strokes": 128, "elapsed": 17.533060665940866}
+{"step": 450, "mse": 0.00556937837973237, "psnr": 22.541932754398275, "strokes": 128, "elapsed": 19.89036016596947}
+{"step": 500, "mse": 0.0055627343244850636, "psnr": 22.547116814155213, "strokes": 128, "elapsed": 22.020550832967274}
+{"initial_psnr": 15.252149261286828, "best_psnr": 22.547116814155213, "best_step": 500, "final_psnr": 22.547116814155213, "ssim": 0.6488215923309326, "seconds": 22.11226533295121, "final_strokes": 128, "best_strokes": 128, "audit_mean": {"area": 124.25633239746094, "good": 101.68936157226562, "bad": 0.5143819451332092, "purity": 0.96587073802948, "benefit": 0.6556748151779175, "residual": 0.15490400791168213}, "events": [], "lpips": null, "comparison_to_paper": "not comparable: local pilot resolution, templates, dataset subset"}
+RUN results/pilot/L0_s0_full
+{"step": 0, "mse": 0.029839055612683296, "psnr": 15.252149261286828, "strokes": 128, "elapsed": 0.0303262920351699}
+{"step": 50, "mse": 0.007929191924631596, "psnr": 21.007710700033787, "strokes": 128, "elapsed": 2.1822488750331104}
+{"step": 100, "mse": 0.007199717685580254, "psnr": 21.42684532735185, "strokes": 128, "elapsed": 4.3460894169984385}
+{"step": 150, "mse": 0.006093448493629694, "psnr": 22.151368554976752, "strokes": 128, "elapsed": 6.521780875045806}
+{"step": 200, "mse": 0.005917754489928484, "psnr": 22.27843056390835, "strokes": 128, "elapsed": 8.678965167026035}
+{"step": 250, "mse": 0.0073314267210662365, "psnr": 21.34811501921962, "strokes": 128, "elapsed": 10.854533749981783}
+{"step": 300, "mse": 0.005421148147433996, "psnr": 22.659087242940306, "strokes": 128, "elapsed": 13.022938042064197}
+{"step": 350, "mse": 0.0050901733338832855, "psnr": 22.932674285341026, "strokes": 128, "elapsed": 15.264649250078946}
+{"step": 400, "mse": 0.005016610492020845, "psnr": 22.995896178745767, "strokes": 128, "elapsed": 17.811878417036496}
+{"step": 450, "mse": 0.004998818039894104, "psnr": 23.011326715507035, "strokes": 128, "elapsed": 20.04940170806367}
+{"step": 500, "mse": 0.0049958727322518826, "psnr": 23.013886336255112, "strokes": 128, "elapsed": 22.241666208021343}
+{"initial_psnr": 15.252149261286828, "best_psnr": 23.013886336255112, "best_step": 500, "final_psnr": 23.013886336255112, "ssim": 0.6596770286560059, "seconds": 22.338203666964546, "final_strokes": 128, "best_strokes": 128, "audit_mean": {"area": 124.40583801269531, "good": 101.88665771484375, "bad": 0.4940018355846405, "purity": 0.9669640064239502, "benefit": 0.6651833057403564, "residual": 0.153903990983963}, "events": [{"step": 100, "pruned": 9, "split": 4, "spawned": 6}, {"step": 150, "pruned": 0, "split": 0, "spawned": 0}, {"step": 200, "pruned": 4, "split": 2, "spawned": 2}, {"step": 250, "pruned": 4, "split": 2, "spawned": 2}, {"step": 300, "pruned": 2, "split": 1, "spawned": 1}, {"step": 350, "pruned": 0, "split": 0, "spawned": 0}, {"step": 400, "pruned": 0, "split": 0, "spawned": 0}], "lpips": null, "comparison_to_paper": "not comparable: local pilot resolution, templates, dataset subset"}
+RUN results/pilot/L0_s1_none
+{"step": 0, "mse": 0.03291008248925209, "psnr": 14.826710291434233, "strokes": 128, "elapsed": 0.028983999975025654}
+{"step": 50, "mse": 0.007537208963185549, "psnr": 21.227894440886473, "strokes": 128, "elapsed": 2.169872667058371}
+{"step": 100, "mse": 0.006507077720016241, "psnr": 21.866140060565833, "strokes": 128, "elapsed": 4.313782708020881}
+{"step": 150, "mse": 0.005502541083842516, "psnr": 22.594367061722537, "strokes": 128, "elapsed": 6.402382457978092}
+{"step": 200, "mse": 0.005328149069100618, "psnr": 22.734236331278872, "strokes": 128, "elapsed": 8.53345225006342}
+{"step": 250, "mse": 0.006038258317857981, "psnr": 22.190883117136178, "strokes": 128, "elapsed": 10.629533917061053}
+{"step": 300, "mse": 0.005790425930172205, "psnr": 22.37289489412463, "strokes": 128, "elapsed": 12.807767249993049}
+{"step": 350, "mse": 0.005434519145637751, "psnr": 22.64838876901468, "strokes": 128, "elapsed": 15.141695708036423}
+{"step": 400, "mse": 0.005303170531988144, "psnr": 22.754644072184824, "strokes": 128, "elapsed": 17.334061832982115}
+{"step": 450, "mse": 0.005270160268992186, "psnr": 22.78176177409737, "strokes": 128, "elapsed": 19.548978083068505}
+{"step": 500, "mse": 0.005267223343253136, "psnr": 22.784182660955423, "strokes": 128, "elapsed": 21.76454837503843}
+{"initial_psnr": 14.826710291434233, "best_psnr": 22.784182660955423, "best_step": 500, "final_psnr": 22.784182660955423, "ssim": 0.6583489179611206, "seconds": 21.85559024999384, "final_strokes": 128, "best_strokes": 128, "audit_mean": {"area": 127.77787780761719, "good": 101.79400634765625, "bad": 0.5055467486381531, "purity": 0.9516479969024658, "benefit": 0.6099509000778198, "residual": 0.15868788957595825}, "events": [], "lpips": null, "comparison_to_paper": "not comparable: local pilot resolution, templates, dataset subset"}
+RUN results/pilot/L0_s1_full
+{"step": 0, "mse": 0.03291008248925209, "psnr": 14.826710291434233, "strokes": 128, "elapsed": 0.02909225004259497}
+{"step": 50, "mse": 0.007537208963185549, "psnr": 21.227894440886473, "strokes": 128, "elapsed": 2.208136417088099}
+{"step": 100, "mse": 0.007036532741039991, "psnr": 21.526412872169548, "strokes": 128, "elapsed": 4.475193708087318}
+{"step": 150, "mse": 0.006742263678461313, "psnr": 21.71194266964633, "strokes": 128, "elapsed": 6.883645000052638}
+{"step": 200, "mse": 0.005328909028321505, "psnr": 22.733616936895086, "strokes": 128, "elapsed": 9.175522250006907}
+{"step": 250, "mse": 0.006947832647711039, "psnr": 21.581506509403887, "strokes": 128, "elapsed": 11.510881417081691}
+{"step": 300, "mse": 0.008239313960075378, "psnr": 20.84108947982167, "strokes": 128, "elapsed": 13.837335542077199}
+{"step": 350, "mse": 0.006473687943071127, "psnr": 21.888482391114813, "strokes": 128, "elapsed": 16.53453679208178}
+{"step": 400, "mse": 0.006222905591130257, "psnr": 22.06006787728721, "strokes": 128, "elapsed": 19.412773167015985}
+{"step": 450, "mse": 0.004882162902504206, "psnr": 23.11387733628716, "strokes": 128, "elapsed": 21.94642766704783}
+{"step": 500, "mse": 0.004861576482653618, "psnr": 23.132228775078822, "strokes": 128, "elapsed": 24.43855133303441}
+{"initial_psnr": 14.826710291434233, "best_psnr": 23.132228775078822, "best_step": 500, "final_psnr": 23.132228775078822, "ssim": 0.6702685356140137, "seconds": 24.53861616703216, "final_strokes": 128, "best_strokes": 128, "audit_mean": {"area": 123.08283233642578, "good": 101.90231323242188, "bad": 0.4580830931663513, "purity": 0.9789215326309204, "benefit": 0.7529593706130981, "residual": 0.15847861766815186}, "events": [{"step": 100, "pruned": 12, "split": 6, "spawned": 6}, {"step": 150, "pruned": 2, "split": 1, "spawned": 1}, {"step": 200, "pruned": 2, "split": 1, "spawned": 1}, {"step": 250, "pruned": 6, "split": 3, "spawned": 3}, {"step": 300, "pruned": 5, "split": 2, "spawned": 3}, {"step": 350, "pruned": 4, "split": 2, "spawned": 2}, {"step": 400, "pruned": 1, "split": 0, "spawned": 1}], "lpips": null, "comparison_to_paper": "not comparable: local pilot resolution, templates, dataset subset"}
+RUN results/pilot/L0_s2_none
+{"step": 0, "mse": 0.0358678475022316, "psnr": 14.452946853801434, "strokes": 128, "elapsed": 0.03237545897718519}
+{"step": 50, "mse": 0.00808186735957861, "psnr": 20.924882815196753, "strokes": 128, "elapsed": 2.6914340839721262}
+{"step": 100, "mse": 0.006939394865185022, "psnr": 21.586783995983673, "strokes": 128, "elapsed": 5.2434105419088155}
+{"step": 150, "mse": 0.0060123722068965435, "psnr": 22.209541414587733, "strokes": 128, "elapsed": 7.750539124943316}
+{"step": 200, "mse": 0.005810284521430731, "psnr": 22.358026003012576, "strokes": 128, "elapsed": 10.063801624928601}
+{"step": 250, "mse": 0.006312558893114328, "psnr": 21.997945570973986, "strokes": 128, "elapsed": 12.449916124925949}
+{"step": 300, "mse": 0.005735392216593027, "psnr": 22.414368773830034, "strokes": 128, "elapsed": 14.810041249962524}
+{"step": 350, "mse": 0.0055807121098041534, "psnr": 22.53310380699306, "strokes": 128, "elapsed": 17.146928749978542}
+{"step": 400, "mse": 0.0054961140267550945, "psnr": 22.599442656361294, "strokes": 128, "elapsed": 19.585615666932426}
+{"step": 450, "mse": 0.005469214171171188, "psnr": 22.62075069578985, "strokes": 128, "elapsed": 21.871925999992527}
+{"step": 500, "mse": 0.005467025563120842, "psnr": 22.622488953975655, "strokes": 128, "elapsed": 24.22340424999129}
+{"initial_psnr": 14.452946853801434, "best_psnr": 22.622488953975655, "best_step": 500, "final_psnr": 22.622488953975655, "ssim": 0.6380162835121155, "seconds": 24.3179438340012, "final_strokes": 128, "best_strokes": 128, "audit_mean": {"area": 126.39704895019531, "good": 101.8122329711914, "bad": 0.6004942655563354, "purity": 0.9591421484947205, "benefit": 0.6192673444747925, "residual": 0.15504294633865356}, "events": [], "lpips": null, "comparison_to_paper": "not comparable: local pilot resolution, templates, dataset subset"}
+RUN results/pilot/L0_s2_full
+{"step": 0, "mse": 0.0358678475022316, "psnr": 14.452946853801434, "strokes": 128, "elapsed": 0.031781500088982284}
+{"step": 50, "mse": 0.00808186735957861, "psnr": 20.924882815196753, "strokes": 128, "elapsed": 2.3697976670227945}
+{"step": 100, "mse": 0.00789867714047432, "psnr": 21.0244563765877, "strokes": 128, "elapsed": 4.80743887508288}
+{"step": 150, "mse": 0.008184917271137238, "psnr": 20.86985705851327, "strokes": 128, "elapsed": 7.236935792025179}
+{"step": 200, "mse": 0.00694154342636466, "psnr": 21.58543955045384, "strokes": 128, "elapsed": 9.631497583002783}
+{"step": 250, "mse": 0.00603482685983181, "psnr": 22.19335185367509, "strokes": 128, "elapsed": 12.211561000091024}
+{"step": 300, "mse": 0.006071474868804216, "psnr": 22.16705798285669, "strokes": 128, "elapsed": 14.710524417110719}
+{"step": 350, "mse": 0.005567171145230532, "psnr": 22.543654274649796, "strokes": 128, "elapsed": 17.095704125007614}
+{"step": 400, "mse": 0.005351144354790449, "psnr": 22.715533331514578, "strokes": 128, "elapsed": 19.49591825006064}
+{"step": 450, "mse": 0.005261655431240797, "psnr": 22.788775958570263, "strokes": 128, "elapsed": 21.815689625102095}
+{"step": 500, "mse": 0.0052560679614543915, "psnr": 22.79339027943366, "strokes": 128, "elapsed": 24.12247187504545}
+{"initial_psnr": 14.452946853801434, "best_psnr": 22.79339027943366, "best_step": 500, "final_psnr": 22.79339027943366, "ssim": 0.6459816098213196, "seconds": 24.219346875092015, "final_strokes": 128, "best_strokes": 128, "audit_mean": {"area": 125.42845153808594, "good": 101.81954193115234, "bad": 0.5267991423606873, "purity": 0.9701244831085205, "benefit": 0.6920075416564941, "residual": 0.16310887038707733}, "events": [{"step": 100, "pruned": 10, "split": 5, "spawned": 5}, {"step": 150, "pruned": 2, "split": 1, "spawned": 1}, {"step": 200, "pruned": 4, "split": 2, "spawned": 2}, {"step": 250, "pruned": 3, "split": 1, "spawned": 2}, {"step": 300, "pruned": 8, "split": 4, "spawned": 4}, {"step": 350, "pruned": 4, "split": 2, "spawned": 2}, {"step": 400, "pruned": 0, "split": 0, "spawned": 0}], "lpips": null, "comparison_to_paper": "not comparable: local pilot resolution, templates, dataset subset"}
+RUN results/pilot/P0_s0_none
+{"step": 0, "mse": 0.05664476752281189, "psnr": 12.468402012625912, "strokes": 128, "elapsed": 0.031645750044845045}
+{"step": 50, "mse": 0.0077362037263810635, "psnr": 21.11472101996653, "strokes": 128, "elapsed": 2.2961542080156505}
+{"step": 100, "mse": 0.006811976432800293, "psnr": 21.667268632230147, "strokes": 128, "elapsed": 4.57445595797617}
+{"step": 150, "mse": 0.0055999611504375935, "psnr": 22.518149858882822, "strokes": 128, "elapsed": 6.907455916982144}
+{"step": 200, "mse": 0.005397500935941935, "psnr": 22.67807273685833, "strokes": 128, "elapsed": 9.22147920797579}
+{"step": 250, "mse": 0.004759250674396753, "psnr": 23.224614198828647, "strokes": 128, "elapsed": 11.567680957959965}
+{"step": 300, "mse": 0.004140207078307867, "psnr": 23.82977936483611, "strokes": 128, "elapsed": 13.836858332972042}
+{"step": 350, "mse": 0.003926028963178396, "psnr": 24.060465008383666, "strokes": 128, "elapsed": 16.10845724993851}
+{"step": 400, "mse": 0.0038490567822009325, "psnr": 24.146456820426817, "strokes": 128, "elapsed": 18.560378875001334}
+{"step": 450, "mse": 0.0038212742656469345, "psnr": 24.17791790424022, "strokes": 128, "elapsed": 21.009915707982145}
+{"step": 500, "mse": 0.0038185296580195427, "psnr": 24.181038319399445, "strokes": 128, "elapsed": 23.330937832943164}
+{"initial_psnr": 12.468402012625912, "best_psnr": 24.181038319399445, "best_step": 500, "final_psnr": 24.181038319399445, "ssim": 0.7889507412910461, "seconds": 23.431590124964714, "final_strokes": 128, "best_strokes": 128, "audit_mean": {"area": 122.21034240722656, "good": 128.76199340820312, "bad": 0.5392163395881653, "purity": 0.935088038444519, "benefit": 0.7744619846343994, "residual": 0.11927846074104309}, "events": [], "lpips": null, "comparison_to_paper": "not comparable: local pilot resolution, templates, dataset subset"}
+RUN results/pilot/P0_s0_full
+{"step": 0, "mse": 0.05664476752281189, "psnr": 12.468402012625912, "strokes": 128, "elapsed": 0.030682750046253204}
+{"step": 50, "mse": 0.0077362037263810635, "psnr": 21.11472101996653, "strokes": 128, "elapsed": 2.2773053330602124}
+{"step": 100, "mse": 0.008237256668508053, "psnr": 20.8421740142192, "strokes": 128, "elapsed": 4.657868582988158}
+{"step": 150, "mse": 0.005371226463466883, "psnr": 22.69926536367636, "strokes": 128, "elapsed": 6.8482992079807445}
+{"step": 200, "mse": 0.0053781806491315365, "psnr": 22.6936461423556, "strokes": 128, "elapsed": 8.98146508296486}
+{"step": 250, "mse": 0.005827920511364937, "psnr": 22.344863803253496, "strokes": 128, "elapsed": 11.036383250029758}
+{"step": 300, "mse": 0.003972810227423906, "psnr": 24.00902179759897, "strokes": 128, "elapsed": 13.214869957999326}
+{"step": 350, "mse": 0.005044905003160238, "psnr": 22.97147007225235, "strokes": 128, "elapsed": 15.283463875064626}
+{"step": 400, "mse": 0.003820203011855483, "psnr": 24.179135573537657, "strokes": 128, "elapsed": 17.459809000021778}
+{"step": 450, "mse": 0.0034621302038431168, "psnr": 24.606566032002934, "strokes": 128, "elapsed": 19.603627540986054}
+{"step": 500, "mse": 0.00345410592854023, "psnr": 24.61664347870159, "strokes": 128, "elapsed": 21.733538083033636}
+{"initial_psnr": 12.468402012625912, "best_psnr": 24.61664347870159, "best_step": 500, "final_psnr": 24.61664347870159, "ssim": 0.8031895160675049, "seconds": 21.818853999953717, "final_strokes": 128, "best_strokes": 128, "audit_mean": {"area": 119.92716979980469, "good": 128.7625732421875, "bad": 0.3998425304889679, "purity": 0.9546566009521484, "benefit": 0.8758382797241211, "residual": 0.12327759712934494}, "events": [{"step": 100, "pruned": 5, "split": 2, "spawned": 4}, {"step": 150, "pruned": 1, "split": 0, "spawned": 1}, {"step": 200, "pruned": 4, "split": 2, "spawned": 2}, {"step": 250, "pruned": 6, "split": 3, "spawned": 3}, {"step": 300, "pruned": 3, "split": 1, "spawned": 2}, {"step": 350, "pruned": 3, "split": 1, "spawned": 2}, {"step": 400, "pruned": 2, "split": 1, "spawned": 1}], "lpips": null, "comparison_to_paper": "not comparable: local pilot resolution, templates, dataset subset"}
+RUN results/pilot/P0_s1_none
+{"step": 0, "mse": 0.0594605952501297, "psnr": 12.257707474594916, "strokes": 128, "elapsed": 0.02821399993263185}
+{"step": 50, "mse": 0.006955469027161598, "psnr": 21.576735789659548, "strokes": 128, "elapsed": 2.078250041930005}
+{"step": 100, "mse": 0.005810742732137442, "psnr": 22.357683523165942, "strokes": 128, "elapsed": 4.126175708021037}
+{"step": 150, "mse": 0.004576651845127344, "psnr": 23.394521239482742, "strokes": 128, "elapsed": 6.293376249959692}
+{"step": 200, "mse": 0.00437919283285737, "psnr": 23.58605930715154, "strokes": 128, "elapsed": 8.39340549998451}
+{"step": 250, "mse": 0.00388396717607975, "psnr": 24.107244490286245, "strokes": 128, "elapsed": 10.59196145797614}
+{"step": 300, "mse": 0.003467195900157094, "psnr": 24.600216195626178, "strokes": 128, "elapsed": 12.781408124952577}
+{"step": 350, "mse": 0.003274026559665799, "psnr": 24.849178018118256, "strokes": 128, "elapsed": 15.069957957952283}
+{"step": 400, "mse": 0.003223797306418419, "psnr": 24.916322719138783, "strokes": 128, "elapsed": 17.1769357919693}
+{"step": 450, "mse": 0.0031789198983460665, "psnr": 24.977204151945624, "strokes": 128, "elapsed": 19.373205874930136}
+{"step": 500, "mse": 0.0031753582879900932, "psnr": 24.982072644765463, "strokes": 128, "elapsed": 21.50409662502352}
+{"initial_psnr": 12.257707474594916, "best_psnr": 24.982072644765463, "best_step": 500, "final_psnr": 24.982072644765463, "ssim": 0.8149154782295227, "seconds": 21.62261900003068, "final_strokes": 128, "best_strokes": 128, "audit_mean": {"area": 126.19764709472656, "good": 128.9064178466797, "bad": 0.4366459548473358, "purity": 0.9406155943870544, "benefit": 0.795224666595459, "residual": 0.12225666642189026}, "events": [], "lpips": null, "comparison_to_paper": "not comparable: local pilot resolution, templates, dataset subset"}
+RUN results/pilot/P0_s1_full
+{"step": 0, "mse": 0.0594605952501297, "psnr": 12.257707474594916, "strokes": 128, "elapsed": 0.027930540964007378}
+{"step": 50, "mse": 0.006955469027161598, "psnr": 21.576735789659548, "strokes": 128, "elapsed": 2.1280280409846455}
+{"step": 100, "mse": 0.015025585889816284, "psnr": 18.231685846328226, "strokes": 128, "elapsed": 4.280183415976353}
+{"step": 150, "mse": 0.006941473111510277, "psnr": 21.585483542842915, "strokes": 128, "elapsed": 6.428078374941833}
+{"step": 200, "mse": 0.004967446904629469, "psnr": 23.038667662211004, "strokes": 128, "elapsed": 8.586463457904756}
+{"step": 250, "mse": 0.004542596638202667, "psnr": 23.426958248362773, "strokes": 128, "elapsed": 10.705668165930547}
+{"step": 300, "mse": 0.0038494181353598833, "psnr": 24.14604911972052, "strokes": 128, "elapsed": 12.90002870792523}
+{"step": 350, "mse": 0.003580843098461628, "psnr": 24.460147080205378, "strokes": 128, "elapsed": 15.068868250004016}
+{"step": 400, "mse": 0.004805076867341995, "psnr": 23.182996604833757, "strokes": 128, "elapsed": 17.175142415915616}
+{"step": 450, "mse": 0.003195255994796753, "psnr": 24.954943416765012, "strokes": 128, "elapsed": 19.131956040975638}
+{"step": 500, "mse": 0.0031649719458073378, "psnr": 24.996301351995697, "strokes": 128, "elapsed": 21.2166552079143}
+{"initial_psnr": 12.257707474594916, "best_psnr": 24.996301351995697, "best_step": 500, "final_psnr": 24.996301351995697, "ssim": 0.8109714388847351, "seconds": 21.31310475000646, "final_strokes": 128, "best_strokes": 128, "audit_mean": {"area": 123.95561218261719, "good": 128.8721923828125, "bad": 0.3984251916408539, "purity": 0.9529248476028442, "benefit": 0.8994338512420654, "residual": 0.12824735045433044}, "events": [{"step": 100, "pruned": 9, "split": 4, "spawned": 5}, {"step": 150, "pruned": 5, "split": 2, "spawned": 3}, {"step": 200, "pruned": 2, "split": 1, "spawned": 1}, {"step": 250, "pruned": 7, "split": 3, "spawned": 4}, {"step": 300, "pruned": 2, "split": 1, "spawned": 1}, {"step": 350, "pruned": 4, "split": 2, "spawned": 2}, {"step": 400, "pruned": 1, "split": 0, "spawned": 1}], "lpips": null, "comparison_to_paper": "not comparable: local pilot resolution, templates, dataset subset"}
+RUN results/pilot/P0_s2_none
+{"step": 0, "mse": 0.054256659001111984, "psnr": 12.65546952595324, "strokes": 128, "elapsed": 0.02884583396371454}
+{"step": 50, "mse": 0.007112185005098581, "psnr": 21.47996954843183, "strokes": 128, "elapsed": 2.0628372919745743}
+{"step": 100, "mse": 0.006221376825124025, "psnr": 22.061134929001014, "strokes": 128, "elapsed": 4.121117791975848}
+{"step": 150, "mse": 0.005124403163790703, "psnr": 22.9035670934856, "strokes": 128, "elapsed": 6.135890499921516}
+{"step": 200, "mse": 0.004905099980533123, "psnr": 23.09352135979995, "strokes": 128, "elapsed": 8.196429417002946}
+{"step": 250, "mse": 0.004898288752883673, "psnr": 23.099556169067558, "strokes": 128, "elapsed": 10.257752334000543}
+{"step": 300, "mse": 0.003920060116797686, "psnr": 24.06707272726148, "strokes": 128, "elapsed": 12.342145542032085}
+{"step": 350, "mse": 0.0035994292702525854, "psnr": 24.437663560187648, "strokes": 128, "elapsed": 14.37301529198885}
+{"step": 400, "mse": 0.003490973496809602, "psnr": 24.5705344830213, "strokes": 128, "elapsed": 16.432249499950558}
+{"step": 450, "mse": 0.0034455943387001753, "psnr": 24.627358548144414, "strokes": 128, "elapsed": 18.518353749997914}
+{"step": 500, "mse": 0.003439619904384017, "psnr": 24.634895465415543, "strokes": 128, "elapsed": 20.654958833940327}
+{"initial_psnr": 12.65546952595324, "best_psnr": 24.634895465415543, "best_step": 500, "final_psnr": 24.634895465415543, "ssim": 0.7965129017829895, "seconds": 20.74393770901952, "final_strokes": 128, "best_strokes": 128, "audit_mean": {"area": 126.484619140625, "good": 128.83694458007812, "bad": 0.46865397691726685, "purity": 0.9057362675666809, "benefit": 0.7513083815574646, "residual": 0.12114562094211578}, "events": [], "lpips": null, "comparison_to_paper": "not comparable: local pilot resolution, templates, dataset subset"}
+RUN results/pilot/P0_s2_full
+{"step": 0, "mse": 0.054256659001111984, "psnr": 12.65546952595324, "strokes": 128, "elapsed": 0.06395462492946535}
+{"step": 50, "mse": 0.007112185005098581, "psnr": 21.47996954843183, "strokes": 128, "elapsed": 2.2842316249152645}
+{"step": 100, "mse": 0.006883522961288691, "psnr": 21.621892345761147, "strokes": 128, "elapsed": 4.568703999975696}
+{"step": 150, "mse": 0.007665661629289389, "psnr": 21.154503548932674, "strokes": 128, "elapsed": 7.000308874994516}
+{"step": 200, "mse": 0.0060440474189817905, "psnr": 22.186721370329884, "strokes": 128, "elapsed": 9.242260666913353}
+{"step": 250, "mse": 0.0047397250309586525, "psnr": 23.24246852629968, "strokes": 128, "elapsed": 11.334243749966845}
+{"step": 300, "mse": 0.004893180448561907, "psnr": 23.104087682233686, "strokes": 128, "elapsed": 13.435735374921933}
+{"step": 350, "mse": 0.004007887560874224, "psnr": 23.970844708675678, "strokes": 128, "elapsed": 15.52692891692277}
+{"step": 400, "mse": 0.004011728335171938, "psnr": 23.96668484059001, "strokes": 128, "elapsed": 17.70711483398918}
+{"step": 450, "mse": 0.003536249278113246, "psnr": 24.514571281914293, "strokes": 128, "elapsed": 19.805506291915663}
+{"step": 500, "mse": 0.0035157857928425074, "psnr": 24.539775931603888, "strokes": 128, "elapsed": 21.9613089999184}
+{"initial_psnr": 12.65546952595324, "best_psnr": 24.539775931603888, "best_step": 500, "final_psnr": 24.539775931603888, "ssim": 0.7967222332954407, "seconds": 22.051039209007286, "final_strokes": 128, "best_strokes": 128, "audit_mean": {"area": 121.80872344970703, "good": 128.83226013183594, "bad": 0.49321287870407104, "purity": 0.9582724571228027, "benefit": 0.8841491937637329, "residual": 0.1292455792427063}, "events": [{"step": 100, "pruned": 9, "split": 4, "spawned": 5}, {"step": 150, "pruned": 4, "split": 2, "spawned": 2}, {"step": 200, "pruned": 1, "split": 0, "spawned": 1}, {"step": 250, "pruned": 2, "split": 1, "spawned": 1}, {"step": 300, "pruned": 4, "split": 2, "spawned": 2}, {"step": 350, "pruned": 0, "split": 0, "spawned": 0}, {"step": 400, "pruned": 2, "split": 1, "spawned": 1}], "lpips": null, "comparison_to_paper": "not comparable: local pilot resolution, templates, dataset subset"}

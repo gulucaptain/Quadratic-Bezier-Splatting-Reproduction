@@ -1,0 +1,646 @@
+{
+  "initial_psnr": 15.264357767626555,
+  "best_psnr": 25.79777968073047,
+  "best_step": 5000,
+  "final_psnr": 25.79777968073047,
+  "ssim": 0.8289720416069031,
+  "seconds": 229.72183070890605,
+  "final_strokes": 128,
+  "best_strokes": 128,
+  "audit_mean": {
+    "area": 121.1024169921875,
+    "good": 54.07143783569336,
+    "bad": 0.2506176829338074,
+    "purity": 0.9816776514053345,
+    "benefit": 0.5458413362503052,
+    "residual": 0.10822741687297821
+  },
+  "events": [
+    {
+      "step": 100,
+      "pruned": 10,
+      "split": 5,
+      "spawned": 5,
+      "split_proposals": 5
+    },
+    {
+      "step": 150,
+      "pruned": 4,
+      "split": 2,
+      "spawned": 2,
+      "split_proposals": 2
+    },
+    {
+      "step": 200,
+      "pruned": 3,
+      "split": 1,
+      "spawned": 2,
+      "split_proposals": 1
+    },
+    {
+      "step": 250,
+      "pruned": 10,
+      "split": 5,
+      "spawned": 5,
+      "split_proposals": 5
+    },
+    {
+      "step": 300,
+      "pruned": 7,
+      "split": 3,
+      "spawned": 4,
+      "split_proposals": 3
+    },
+    {
+      "step": 350,
+      "pruned": 6,
+      "split": 3,
+      "spawned": 3,
+      "split_proposals": 3
+    },
+    {
+      "step": 400,
+      "pruned": 9,
+      "split": 4,
+      "spawned": 5,
+      "split_proposals": 4
+    },
+    {
+      "step": 450,
+      "pruned": 9,
+      "split": 4,
+      "spawned": 5,
+      "split_proposals": 4
+    },
+    {
+      "step": 500,
+      "pruned": 12,
+      "split": 6,
+      "spawned": 6,
+      "split_proposals": 6
+    },
+    {
+      "step": 550,
+      "pruned": 9,
+      "split": 4,
+      "spawned": 5,
+      "split_proposals": 4
+    },
+    {
+      "step": 600,
+      "pruned": 12,
+      "split": 6,
+      "spawned": 6,
+      "split_proposals": 6
+    },
+    {
+      "step": 650,
+      "pruned": 9,
+      "split": 4,
+      "spawned": 5,
+      "split_proposals": 4
+    },
+    {
+      "step": 700,
+      "pruned": 9,
+      "split": 4,
+      "spawned": 5,
+      "split_proposals": 4
+    },
+    {
+      "step": 750,
+      "pruned": 10,
+      "split": 5,
+      "spawned": 5,
+      "split_proposals": 5
+    },
+    {
+      "step": 800,
+      "pruned": 11,
+      "split": 5,
+      "spawned": 6,
+      "split_proposals": 5
+    },
+    {
+      "step": 850,
+      "pruned": 12,
+      "split": 6,
+      "spawned": 6,
+      "split_proposals": 6
+    },
+    {
+      "step": 900,
+      "pruned": 12,
+      "split": 5,
+      "spawned": 7,
+      "split_proposals": 6
+    },
+    {
+      "step": 950,
+      "pruned": 12,
+      "split": 6,
+      "spawned": 6,
+      "split_proposals": 6
+    },
+    {
+      "step": 1000,
+      "pruned": 12,
+      "split": 5,
+      "spawned": 7,
+      "split_proposals": 6
+    },
+    {
+      "step": 1050,
+      "pruned": 12,
+      "split": 6,
+      "spawned": 6,
+      "split_proposals": 6
+    },
+    {
+      "step": 1100,
+      "pruned": 12,
+      "split": 6,
+      "spawned": 6,
+      "split_proposals": 6
+    },
+    {
+      "step": 1150,
+      "pruned": 12,
+      "split": 6,
+      "spawned": 6,
+      "split_proposals": 6
+    },
+    {
+      "step": 1200,
+      "pruned": 12,
+      "split": 6,
+      "spawned": 6,
+      "split_proposals": 6
+    },
+    {
+      "step": 1250,
+      "pruned": 12,
+      "split": 6,
+      "spawned": 6,
+      "split_proposals": 6
+    },
+    {
+      "step": 1300,
+      "pruned": 11,
+      "split": 5,
+      "spawned": 6,
+      "split_proposals": 5
+    },
+    {
+      "step": 1350,
+      "pruned": 10,
+      "split": 5,
+      "spawned": 5,
+      "split_proposals": 5
+    },
+    {
+      "step": 1400,
+      "pruned": 8,
+      "split": 3,
+      "spawned": 5,
+      "split_proposals": 4
+    },
+    {
+      "step": 1450,
+      "pruned": 12,
+      "split": 5,
+      "spawned": 7,
+      "split_proposals": 6
+    },
+    {
+      "step": 1500,
+      "pruned": 12,
+      "split": 6,
+      "spawned": 6,
+      "split_proposals": 6
+    },
+    {
+      "step": 1550,
+      "pruned": 12,
+      "split": 4,
+      "spawned": 8,
+      "split_proposals": 6
+    },
+    {
+      "step": 1600,
+      "pruned": 12,
+      "split": 6,
+      "spawned": 6,
+      "split_proposals": 6
+    },
+    {
+      "step": 1650,
+      "pruned": 12,
+      "split": 6,
+      "spawned": 6,
+      "split_proposals": 6
+    },
+    {
+      "step": 1700,
+      "pruned": 12,
+      "split": 6,
+      "spawned": 6,
+      "split_proposals": 6
+    },
+    {
+      "step": 1750,
+      "pruned": 12,
+      "split": 6,
+      "spawned": 6,
+      "split_proposals": 6
+    },
+    {
+      "step": 1800,
+      "pruned": 12,
+      "split": 6,
+      "spawned": 6,
+      "split_proposals": 6
+    },
+    {
+      "step": 1850,
+      "pruned": 10,
+      "split": 5,
+      "spawned": 5,
+      "split_proposals": 5
+    },
+    {
+      "step": 1900,
+      "pruned": 12,
+      "split": 5,
+      "spawned": 7,
+      "split_proposals": 6
+    },
+    {
+      "step": 1950,
+      "pruned": 8,
+      "split": 3,
+      "spawned": 5,
+      "split_proposals": 4
+    },
+    {
+      "step": 2000,
+      "pruned": 7,
+      "split": 3,
+      "spawned": 4,
+      "split_proposals": 3
+    },
+    {
+      "step": 2050,
+      "pruned": 9,
+      "split": 3,
+      "spawned": 6,
+      "split_proposals": 4
+    },
+    {
+      "step": 2100,
+      "pruned": 11,
+      "split": 5,
+      "spawned": 6,
+      "split_proposals": 5
+    },
+    {
+      "step": 2150,
+      "pruned": 7,
+      "split": 3,
+      "spawned": 4,
+      "split_proposals": 3
+    },
+    {
+      "step": 2200,
+      "pruned": 9,
+      "split": 3,
+      "spawned": 6,
+      "split_proposals": 4
+    },
+    {
+      "step": 2250,
+      "pruned": 10,
+      "split": 4,
+      "spawned": 6,
+      "split_proposals": 5
+    },
+    {
+      "step": 2300,
+      "pruned": 7,
+      "split": 3,
+      "spawned": 4,
+      "split_proposals": 3
+    },
+    {
+      "step": 2350,
+      "pruned": 12,
+      "split": 6,
+      "spawned": 6,
+      "split_proposals": 6
+    },
+    {
+      "step": 2400,
+      "pruned": 10,
+      "split": 4,
+      "spawned": 6,
+      "split_proposals": 5
+    },
+    {
+      "step": 2450,
+      "pruned": 4,
+      "split": 2,
+      "spawned": 2,
+      "split_proposals": 2
+    },
+    {
+      "step": 2500,
+      "pruned": 10,
+      "split": 5,
+      "spawned": 5,
+      "split_proposals": 5
+    },
+    {
+      "step": 2550,
+      "pruned": 6,
+      "split": 3,
+      "spawned": 3,
+      "split_proposals": 3
+    },
+    {
+      "step": 2600,
+      "pruned": 8,
+      "split": 3,
+      "spawned": 5,
+      "split_proposals": 4
+    },
+    {
+      "step": 2650,
+      "pruned": 11,
+      "split": 5,
+      "spawned": 6,
+      "split_proposals": 5
+    },
+    {
+      "step": 2700,
+      "pruned": 5,
+      "split": 2,
+      "spawned": 3,
+      "split_proposals": 2
+    },
+    {
+      "step": 2750,
+      "pruned": 4,
+      "split": 2,
+      "spawned": 2,
+      "split_proposals": 2
+    },
+    {
+      "step": 2800,
+      "pruned": 3,
+      "split": 1,
+      "spawned": 2,
+      "split_proposals": 1
+    },
+    {
+      "step": 2850,
+      "pruned": 3,
+      "split": 1,
+      "spawned": 2,
+      "split_proposals": 1
+    },
+    {
+      "step": 2900,
+      "pruned": 1,
+      "split": 0,
+      "spawned": 1,
+      "split_proposals": 0
+    },
+    {
+      "step": 2950,
+      "pruned": 1,
+      "split": 0,
+      "spawned": 1,
+      "split_proposals": 0
+    },
+    {
+      "step": 3000,
+      "pruned": 1,
+      "split": 0,
+      "spawned": 1,
+      "split_proposals": 0
+    },
+    {
+      "step": 3050,
+      "pruned": 1,
+      "split": 0,
+      "spawned": 1,
+      "split_proposals": 0
+    },
+    {
+      "step": 3100,
+      "pruned": 1,
+      "split": 0,
+      "spawned": 1,
+      "split_proposals": 0
+    },
+    {
+      "step": 3150,
+      "pruned": 1,
+      "split": 0,
+      "spawned": 1,
+      "split_proposals": 0
+    },
+    {
+      "step": 3200,
+      "pruned": 2,
+      "split": 1,
+      "spawned": 1,
+      "split_proposals": 1
+    },
+    {
+      "step": 3250,
+      "pruned": 1,
+      "split": 0,
+      "spawned": 1,
+      "split_proposals": 0
+    },
+    {
+      "step": 3300,
+      "pruned": 1,
+      "split": 0,
+      "spawned": 1,
+      "split_proposals": 0
+    },
+    {
+      "step": 3350,
+      "pruned": 2,
+      "split": 1,
+      "spawned": 1,
+      "split_proposals": 1
+    },
+    {
+      "step": 3400,
+      "pruned": 0,
+      "split": 0,
+      "spawned": 0,
+      "split_proposals": 0
+    },
+    {
+      "step": 3450,
+      "pruned": 0,
+      "split": 0,
+      "spawned": 0,
+      "split_proposals": 0
+    },
+    {
+      "step": 3500,
+      "pruned": 0,
+      "split": 0,
+      "spawned": 0,
+      "split_proposals": 0
+    },
+    {
+      "step": 3550,
+      "pruned": 1,
+      "split": 0,
+      "spawned": 1,
+      "split_proposals": 0
+    },
+    {
+      "step": 3600,
+      "pruned": 0,
+      "split": 0,
+      "spawned": 0,
+      "split_proposals": 0
+    },
+    {
+      "step": 3650,
+      "pruned": 1,
+      "split": 0,
+      "spawned": 1,
+      "split_proposals": 0
+    },
+    {
+      "step": 3700,
+      "pruned": 0,
+      "split": 0,
+      "spawned": 0,
+      "split_proposals": 0
+    },
+    {
+      "step": 3750,
+      "pruned": 0,
+      "split": 0,
+      "spawned": 0,
+      "split_proposals": 0
+    },
+    {
+      "step": 3800,
+      "pruned": 0,
+      "split": 0,
+      "spawned": 0,
+      "split_proposals": 0
+    },
+    {
+      "step": 3850,
+      "pruned": 1,
+      "split": 0,
+      "spawned": 1,
+      "split_proposals": 0
+    },
+    {
+      "step": 3900,
+      "pruned": 0,
+      "split": 0,
+      "spawned": 0,
+      "split_proposals": 0
+    },
+    {
+      "step": 3950,
+      "pruned": 2,
+      "split": 1,
+      "spawned": 1,
+      "split_proposals": 1
+    },
+    {
+      "step": 4000,
+      "pruned": 0,
+      "split": 0,
+      "spawned": 0,
+      "split_proposals": 0
+    },
+    {
+      "step": 4050,
+      "pruned": 1,
+      "split": 0,
+      "spawned": 1,
+      "split_proposals": 0
+    },
+    {
+      "step": 4100,
+      "pruned": 2,
+      "split": 1,
+      "spawned": 1,
+      "split_proposals": 1
+    },
+    {
+      "step": 4150,
+      "pruned": 1,
+      "split": 0,
+      "spawned": 1,
+      "split_proposals": 0
+    },
+    {
+      "step": 4200,
+      "pruned": 0,
+      "split": 0,
+      "spawned": 0,
+      "split_proposals": 0
+    },
+    {
+      "step": 4250,
+      "pruned": 0,
+      "split": 0,
+      "spawned": 0,
+      "split_proposals": 0
+    },
+    {
+      "step": 4300,
+      "pruned": 0,
+      "split": 0,
+      "spawned": 0,
+      "split_proposals": 0
+    },
+    {
+      "step": 4350,
+      "pruned": 0,
+      "split": 0,
+      "spawned": 0,
+      "split_proposals": 0
+    },
+    {
+      "step": 4400,
+      "pruned": 0,
+      "split": 0,
+      "spawned": 0,
+      "split_proposals": 0
+    },
+    {
+      "step": 4450,
+      "pruned": 0,
+      "split": 0,
+      "spawned": 0,
+      "split_proposals": 0
+    },
+    {
+      "step": 4500,
+      "pruned": 0,
+      "split": 0,
+      "spawned": 0,
+      "split_proposals": 0
+    }
+  ],
+  "lpips": null,
+  "comparison_to_paper": "not comparable: local pilot resolution, templates, dataset subset",
+  "event_telemetry_correction": "split now counts executed operations, split_proposals preserves original count. Fixed 128-stroke full-audit runs: executed=pruned-spawned. Image metrics unchanged; raw stdout retained."
+}

@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Cite the original paper for the method; cite this software for the independent implementation."
+title: "Quadratic Bezier Splatting: Independent PyTorch Reproduction"
+authors:
+  - name: "gulucaptain"
+type: software
+version: 0.1.0
+date-released: 2026-11-16
+license: MIT
+repository-code: "https://github.com/gulucaptain/Quadratic-Bezier-Splatting-Reproduction"
+url: "https://github.com/gulucaptain/Quadratic-Bezier-Splatting-Reproduction"
+abstract: "Independent partial implementation of analytic quadratic Bezier stroke rendering and audit-guided optimization, with CPU and Apple Silicon validation. No trained initializer or full paper-level reproduction is included."
